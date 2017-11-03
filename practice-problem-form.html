@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+<style>
+	table, td, th {border:1px solid black;}
+	table {border-collapse: collapse;}
+</style>
+</head>
+<body>
+	<h1>Make a form as shown in image</h1>
+	<table>
+		<tr><th>Name</th>
+			<th>Value</th></tr>
+		<tr><td>First name:</td>
+			<td><input type="text" name="firstname" value="Mickey"></td></tr>
+		<tr><td>Last name:</td>
+			<td><input type="text" name="lastname" value="Mouse"></td></tr>
+		<tr><td>Gender</td>
+			<td><input type="radio" name="Gender" value="Male" checked>Male<br/>
+				<input type="radio" name="Gender" value="Female">Female</td></tr>
+		<tr><td>Check all tdat apply</td>
+			<td><input type="checkbox" name="vehicle" value="Bike"> I have a bike<br/>
+				<input type="checkbox" name="vehicle" value="Car" > I have a car<br/></td></tr>
+		<tr><td>Comment</td>
+			<td><textarea rows="2" cols="20"></textarea></td></tr>
+		<tr><td colspan="2" style="text-align: center"><input type="submit" value="Submit"></td></tr>
+	</table>
+</body>
+</html>
